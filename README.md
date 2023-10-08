@@ -18,5 +18,11 @@ A small clock with two buttons for displaying messages.
   - Personally, I made it so that these two events have randomly chosen messages.
 
 
+## Programming Guide:
+
+- You will need another esp8266 dev board to program the pcb. This is because rst and flash buttons have not been added to the PCB yet.
+- You can find additional information about the same [here](https://www.instructables.com/3-Simple-Ways-of-Programming-an-ESP8266-12X-Module/).
+- A 6 pin port has been added to the board for programmng as well as debugging. 
+
 ## Choice of microcontroller:
 This project does not have wifi yet. The ESP8266 chip was used because I had an extra one lying around. The current fucntionality can be achieved by pretty much any controller.
